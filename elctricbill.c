@@ -27,7 +27,7 @@ int main()
 	else if(units>250)
 	{
 		bill=50*3.50+100*4+100*5.20+(units-250)*6.50;
-		printf("Electricity Bill=%f Rupees",bill);
+		printf("Electricity Bill=%.2f Rupees",bill);
 
 	}
 	else

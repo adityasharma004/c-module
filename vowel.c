@@ -21,7 +21,6 @@ int main()
     case'u':
     printf("vowels");
     break;
-    default:
      case'A':
     printf("vowels");
     break;
@@ -39,5 +38,6 @@ int main()
     break;
     default:
     printf("consotant");
+
 }
 }
